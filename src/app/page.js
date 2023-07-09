@@ -79,8 +79,9 @@ export default function Home() {
         <div className="w-full p-8">
           <div className="flex flex-col w-10/12 mx-auto"> 
             <div className="w-8/12 mx-auto rounded-lg">
-              <div className="flex flex-col pb-20">
-                  <h1 className='text-white font-bold text-7xl my-24 text-center'>Journey</h1>
+              <div className="flex flex-col pb-20 mt-24">
+                  <p className="text-white font-light text-2xl text-center">What I have done so far</p>
+                  <h1 className='text-white font-bold text-6xl mb-24 text-center'>Work Experience.</h1>
                   <div className="grid mb-8 border border-gray-200 rounded-lg shadow-sm md:mb-12 md:grid-cols-2">
                       <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r">
                           <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 ">
@@ -143,6 +144,42 @@ export default function Home() {
                           </figcaption>    
                       </figure>
                   </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full p-8">
+          <div className="flex flex-col w-10/12 mx-auto"> 
+            <div className="w-8/12 mx-auto rounded-lg">
+              <div className="flex flex-col pb-20">
+                <div className="py-14 rounded-se-lg rounded-ss-lg">
+                  <p className="text-white font-light text-2xl">My Works</p>
+                  <p className="text-white font-bold text-6xl">Projects.</p>
+                </div>
+                <div className="rounded-es-lg rounded-ee-lg">
+                  <p className="text-white text-2xl">
+                    Following projects showcases my skills and experience through real-world examples of my work. 
+                    Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to 
+                    solve complex problems, work with different technologies, and manage projects effectively.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full p-8">
+          <div className="flex flex-col w-10/12 mx-auto"> 
+            <div className="w-8/12 mx-auto rounded-lg">
+              <div className="flex flex-col pb-20">
+                <div className="bg-blue-800 px-8 py-14 rounded-se-lg rounded-ss-lg">
+                  <p className="text-white font-light text-2xl">What other says</p>
+                  <p className="text-white font-bold text-6xl">Testimonials.</p>
+                </div>
+                <div className="rounded-es-lg rounded-ee-lg p-8 bg-white">
+
+                </div>
               </div>
             </div>
           </div>
