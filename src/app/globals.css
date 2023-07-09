@@ -7,18 +7,17 @@ body{
 }
 
 .building_career_video{
-  width: 50vw;
+  /* width: 50vw;
   aspect-ratio: 2/1.5;
   left: 0;
-  line-height: 0;
-  font-size: 0;
+  bottom:0; */
 }
 .building_career_footer{
   position: absolute;
   width: 50vw;
   height: auto;
-  aspect-ratio: 2000/697;
-  bottom: calc(2px - 1.6vw);
+  /* aspect-ratio: 1460/480; */
+  bottom: calc(16px - 5.6vw);
   left: 0;
   z-index: 40;
 }
